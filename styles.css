@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+  
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown .dropbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content.left {
+    left: auto;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.welcome {
+    text-align: center;
+    padding: 100px 40px;
+    background: url('podstrony/image/baner.png') no-repeat center center/cover;
+    color: #000000;
+}
+
+.welcome h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #f90;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 50px 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.product .button {
+    display: inline-block;
+}
+
+.about-section {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    float: left;
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-info .section {
+    margin-bottom: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    float: right;
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.contact-info {
+    float: left;
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-info .section {
+    margin-bottom: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    float: right;
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute; /* Ustawienie pozycji dla stopki */
+    bottom: -1500px; /* Ustawienie stopki na dole strony */
+}
+
+
